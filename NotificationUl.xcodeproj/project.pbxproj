@@ -12,6 +12,7 @@
 		089F34DD1F67FC850046BDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089F34DB1F67FC850046BDE5 /* Main.storyboard */; };
 		089F34DF1F67FC850046BDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089F34DE1F67FC850046BDE5 /* Assets.xcassets */; };
 		089F34E21F67FC850046BDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089F34E01F67FC850046BDE5 /* LaunchScreen.storyboard */; };
+		089F34EA1F6801FB0046BDE5 /* Swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 089F34E91F6801FB0046BDE5 /* Swift.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		089F34DE1F67FC850046BDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		089F34E11F67FC850046BDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		089F34E31F67FC850046BDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089F34E91F6801FB0046BDE5 /* Swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swift.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		089F34D61F67FC850046BDE5 /* NotificationUl */ = {
 			isa = PBXGroup;
 			children = (
+				089F34E91F6801FB0046BDE5 /* Swift.png */,
 				089F34D71F67FC850046BDE5 /* AppDelegate.swift */,
 				089F34D91F67FC850046BDE5 /* ViewController.swift */,
 				089F34DB1F67FC850046BDE5 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				089F34E21F67FC850046BDE5 /* LaunchScreen.storyboard in Resources */,
+				089F34EA1F6801FB0046BDE5 /* Swift.png in Resources */,
 				089F34DF1F67FC850046BDE5 /* Assets.xcassets in Resources */,
 				089F34DD1F67FC850046BDE5 /* Main.storyboard in Resources */,
 			);
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
